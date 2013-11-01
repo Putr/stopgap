@@ -1,82 +1,117 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
   <head>
-    <meta charset='utf-8'>
-    <title>Pirate Party Australia - Voting System</title>
-    <link href='/static/css/bootstrap.min.css' rel='stylesheet'>
-    <link href='/static/css/webfonts.css' rel='stylesheet'>
-    <link href='/static/css/logo.css' rel='stylesheet'>
-    <style>
-body, button, h1, h2, h3, h4, h5, h6, fieldset {
-  font-family: 'Open Sans', sans-serif;
-}
+    <meta charset="utf-8">
+    <title>Glasovanje: Izredni kongres Piratske stranke Slovenije</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-h1, h2, h3, h4, h5, h6, .btn {
-  font-weight: 300;
-}
+    <!-- Le styles -->
+    <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
 
-.btn {
-  font-size: 110%;
-}
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
 
-.privacy {
-  font-size: 12px;
-  width: 220px;
-  padding: 6px;
-}
+      .btn-group label.active {
+        font-weight: bold;
+      }
 
-@media (max-width: 600px) {
-  .privacy {
-    float: none! important;
-    width: 100%;
-    margin-top: 10px;
-  }
-}
+      .btn-group label {
+        padding-right: 30px;
+        padding-left: 30px;
+      }
 
-.container {
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
-  padding: 0 2em;
-  background-color: #fefefe;
-  max-width: 750px;
-  margin: 0 auto;
-}
+      h3.predlog {
+        padding-top: 20px;
+      }
 
-body {
-  background-color: #0073ae;
-}
+      .voting-block {
+        margin-top: 20px;
+      }
+
+      .readMore-link {
+        padding: 20px 0 20px 20px;
+      }
+
+      .glas-oseba {
+        padding-top: 10px;
+      }
+
+      .glas-oseba-prva {
+        padding-top: 30px;
+      }
+
+      .glas-oseba-zadnja {
+        padding-bottom: 20px;
+      }
+
+      img.person-img {
+        max-width: 120px;
+        max-height: 150px;
+      }
+
+      .glas-oseba .btn-group {
+        position: relative;
+        top: -20px;
+      }
+
+
+
 
     </style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
   </head>
+
   <body>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-12'>
-          <div>
-            <div class='aside privacy alert alert-success pull-right'>
-              This system is hosted on a server in <a href="http://digitalocean.com">the Netherlands</a>, and is being accessed over a secure SSL link.
-            </div>
-            <h1>
-              <a href="http://pirateparty.org.au" class="logo">
-                <div>
-                  <span class="logo-bold-blue">pirate</span>party
-                </div>
-                <div class="logo-australia">Voting System</div>
-              </a>
-            </h1>
-          </div>
-          <hr>
 
-          <p class='alert alert-warning'>
-            It is not possible to access any ballots from this page. Please check your inbox for a valid ballot link.
-          </p>
+    <div class="container-narrow">
 
-          <p style='text-align: center'>
-            <a href="http://pirateparty.org.au" class='btn btn-primary'>Go to Pirate Party Australia</a>
-          </p>
-          <hr>
-          <p style='text-align: center'>:)</p>
-        </div>
+      <div class="masthead">
+        
+        <h3 class="muted"><img src="http://piratskastranka.si/wp-content/themes/pswp2013/img/piratska_stranka_logo.png" style="padding-right: 20px;"> Glasovalni sistem</h3>
       </div>
-    </div>
+
+      <hr>
+
+      <div class="row-fluid">
+        <div class="span6">
+            
+            <p>S te strani ni mogoče dostopati do glasovanja. Prosim preverite svoj email inbox za veljavno glasovnico.</p> 
+
+
+         </div>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/static/js/readmore.min.js"></script>
+
+    <script type="text/javascript">
+
+    </script>
+
   </body>
 </html>
