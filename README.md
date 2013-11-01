@@ -26,9 +26,9 @@ $ echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' 
 $ sudo apt-get update
 $ sudo apt-get install sendmail mongodb-10gen python3 python3-dev python3-setuptools build-essential
 $ sudo easy_install3 virtualenv
-$ virtualenv py32
-$ source py32/bin/activate
-$ pip install pymongo tornado bbqutils
+$ virtualenv -p /usr/bin/python3 py3env
+$ source py3env/bin/activate
+$ pip install pymongo tornado bbqutils bson
 ```
 
 ### Running Stopgap
