@@ -103,6 +103,7 @@ We create an election using the `create.py` script. For example:
 ```
 $ python create.py my-special-election participants.txt ballot.html success.html error.html email.txt "Voting System <foo@bar.tld>" "Voting System Ballot: PLEASE VOTE!"
 ```
+OR edit create.sh and use that.
 
 Once you are prepared to mail out the tokens to the participants, use the `send.py` script. You may opt to do a dry run using `-d`, and running this script will ask you to confirm that you wish to send the tokens out to the recipients before starting.
 

@@ -1,0 +1,13 @@
+Pozdravljeni!
+
+Danes začenjamo z glasovanjem v Piratski stranki Slovenije. Glasovanje bo potekalo od 26. do 27. marca.
+
+Glasovali bomo o:
+
+- Listi za EU volitve 2014
+
+VSAK GLAS ŠTEJE saj statut zahteva da svoj glas odda vsaj 30% članic in članov.
+
+Glasuješ s klikom na naslednji link:
+
+https://moja.piratskastranka.si/{slug}/{token}
