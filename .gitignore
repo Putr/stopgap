@@ -1,6 +1,9 @@
 *.sublime-workspace
 __pycache__/
 *.pyc
-elections/
 static/img/
 stopgap.sublime-project
+
+election_results/
+
+etc/nginx.conf

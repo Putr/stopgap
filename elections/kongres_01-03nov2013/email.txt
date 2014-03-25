@@ -1,0 +1,15 @@
+Pozdravljeni!
+
+Danes začenjamo z glasovanjem v Piratski stranki Slovenije. Glasovanje bo potekalo od 1. do 3. novembra.
+
+Glasovali bomo o:
+
+- Širitvi programa
+- Nadomestnih članih za jedro stranke
+- Volilni komisiji
+
+VSAK GLAS ŠTEJE saj statut zahteva da svoj glas odda vsaj 30% članic in članov.
+
+Glasuješ s klikom na naslednji link:
+
+https://moja.piratskastranka.si/{slug}/{token}
